@@ -39,7 +39,6 @@ export const App = () => {
     <div className="App">
       <h1>Add todo form</h1>
       <TodoForm onAddTodo={handleAddTodo} />
-      Add commentMore actions
       <TodoList todos={todos} />
     </div>
   );
